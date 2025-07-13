@@ -33,8 +33,14 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
 		);
 	}
 
-	const { LabData, PAGEDATA, TechData, TopicsData, AssignmentData } =
-		courseData;
+	const {
+		LabData,
+		PAGEDATA,
+		TechData,
+		TopicsData,
+		AssignmentData,
+		EXAMPLEDATA,
+	} = courseData;
 
 	switch (data) {
 		case 'assignments': {
@@ -155,7 +161,15 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
 					data: PAGEDATA,
 				})
 			);
-
+		case 'examples':
+			return res.status(200).json(
+				new BaseObj({
+					status: 200,
+					statusMessage: 'OK',
+					success: true,
+					data: EXAMPLEDATA,
+				})
+			);
 		case 'techData':
 			return res.status(200).json(
 				new BaseObj({
