@@ -1,10 +1,14 @@
 {
-  "repository": "https://github.com/vercel/examples.git",
-  "license": "MIT",
-  "private": true,
-  "devDependencies": {
-    "@types/node": "^17.0.42",
-    "@vercel/node": "^2.9.6",
-    "typescript": "^4.7.3"
-  }
+	"repository": "https://github.com/mohammadelhsn/portfolio-api",
+	"license": "MIT",
+	"private": true,
+	"devDependencies": {
+		"@types/node": "^17.0.42",
+		"@vercel/node": "^5.3.5",
+		"typescript": "^4.7.3"
+	},
+	"name": "portfolio-api",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "Mohammad El-Hassan <mohammadelhsn@gmail.com>"
 }
