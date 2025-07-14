@@ -18,7 +18,10 @@ const courseMap: Record<string, any> = {
 };
 
 export default function handler(req: VercelRequest, res: VercelResponse) {
-	const allowedOrigins = ['https://mohammadelhsn.github.io']; // your GitHub Pages URL
+	const allowedOrigins = [
+		'https://mohammadelhsn.github.io',
+		'http://localhost:5173',
+	]; // your GitHub Pages URL
 	const origin = req.headers.origin;
 
 	if (origin && allowedOrigins.includes(origin)) {
