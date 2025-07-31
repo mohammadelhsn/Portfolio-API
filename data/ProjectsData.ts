@@ -99,7 +99,7 @@ export const PROJECTS: Projects[] = [
 	},
 	{
 		name: 'DevTask-Planner',
-		desc: 'A developer-focused task planner with project tracking, feature lifecycle management, and productivity tools.',
+		desc: 'A productivity-focused task manager built for developers. Supports task creation with tagging, lifecycles (alpha/beta/stable), priorities, types (feature/bug), and category sorting (short/medium/long term, doing, done).',
 		url: 'https://devtask-planner.web.app/',
 	},
 ];
