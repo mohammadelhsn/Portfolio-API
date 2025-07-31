@@ -87,4 +87,19 @@ export const PROJECTS: Projects[] = [
 		desc: 'A very simple API using Express and Typescript',
 		url: `${GITHUB}/API-TS`,
 	},
+	{
+		name: 'Portfolio API',
+		desc: 'Backend API powering this portfolio site — handles project, contact, and metadata endpoints.',
+		url: 'https://portfolio-api-fawn-two.vercel.app/api',
+	},
+	{
+		name: 'MindCore',
+		desc: 'A work-in-progress journaling app designed to help users reflect, track mood, and organize thoughts securely.',
+		url: 'https://mindcore-dev.web.app/#/',
+	},
+	{
+		name: 'DevTask-Planner',
+		desc: 'A developer-focused task planner with project tracking, feature lifecycle management, and productivity tools.',
+		url: 'https://devtask-planner.web.app/',
+	},
 ];
