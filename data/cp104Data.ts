@@ -2581,7 +2581,7 @@ Hello World`,
 		constants: [],
 	},
 	{
-		id: 'L11',
+		id: 'elha7950_l11',
 		name: 'Lab 11',
 		tasks: [
 			{
