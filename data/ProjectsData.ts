@@ -1,15 +1,15 @@
 /**
- * @description My name
+ * My name
  */
 export const NAME = 'Mohammad El-Hassan';
 
 /**
- * @description My username
+ * My username
  */
 export const USERNAME = 'mohammadelhsn';
 
 /**
- * @description My GitHub handle
+ * My GitHub handle
  */
 export const GITHUB_HANDLE = `@${USERNAME}`;
 
@@ -19,32 +19,25 @@ export const GITHUB_HANDLE = `@${USERNAME}`;
 export const LINKEDIN = 'https://www.linkedin.com/in/mohammadelhsn';
 
 /**
- * @description My GitHub URL
+ *  My GitHub URL
  */
 export const GITHUB = `https://github.com/${USERNAME}`;
 
 /**
- * @description My YouTube URL
+ *  My YouTube URL
  */
 export const YOUTUBE = `https://youtube.com/@${USERNAME}`;
 
 /**
- * @description My Email
+ * My Email
  */
 export const EMAIL = `${USERNAME}@gmail.com`;
 
 /**
- * @description My Base URL for my website
+ * My Base URL for my website
  */
 export const baseURL = `https://${USERNAME}.github.io`;
 
-/**
- * @description Type definition for each project and its fields
- *
- * @field {string} name - The projects name
- * @field {string} desc - The description of the project
- * @field {string} url - Link to the project
- */
 export interface Projects {
 	name: string;
 	desc: string;
