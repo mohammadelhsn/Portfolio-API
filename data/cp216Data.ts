@@ -194,7 +194,7 @@ export const TopicsData = [
 export const TechData = [
 	{
 		bolded: 'Programming Language:',
-		nonBolded: 'Python',
+		nonBolded: 'ARM Assembly',
 	},
 	{
 		bolded: 'Development Environment:',
